@@ -84,3 +84,39 @@ main{
     color: #495057;
     font-size: 18px;
 }
+
+@media screen and (max-width:480px){
+    *{
+        line-height: 110%;
+        font-size: 25px;
+    }
+    header{
+        width: 100%;
+    }
+    main{
+        display: block;
+        margin-left: 25px;
+    }
+    .textarea{
+        margin-top: 10px;
+    }
+    .mensaje{
+        position: absolute;
+        margin-left: auto;
+        margin-top: 40px;
+        width: 60%;
+    }
+    .copiar{
+        margin-left: -10px;
+        width: 70%;
+        margin-top: 380px;
+    }
+    }
+    .logo{
+        width: 2%;
+    }
+    .botones{
+        width: 250px;
+        margin-left: -10px;
+    }
+}

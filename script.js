@@ -1,5 +1,6 @@
 const textArea = document.querySelector(".textarea");
 const mensaje = document.querySelector(".mensaje");
+const boton = document.querySelector(".copiar");
 
 //La letra "e" es convertida para "enter"
 //La letra "i" es convertida para "imes"
@@ -47,7 +48,8 @@ function desencriptar(stringDesencriptada){
 function btnCopiar(){
     const mensajeCopiado = mensaje.value
     navigator.clipboard.writeText(mensajeCopiado)
-    
+    boton.textContent = 'Copiado'
+    mensaje.value = "";
 }
 
 

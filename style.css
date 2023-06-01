@@ -14,14 +14,14 @@
 
 main{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     margin-left: 80px;
 }
 
 .textarea{
     border: none;
     color: #0A3871;
-    margin-top: 90px;
+    margin-top: 40px;
     text-transform: lowercase;
 }
 ::placeholder{ color: #0A3871; }
@@ -111,6 +111,8 @@ main{
         width: 70%;
         margin-top: 380px;
     }
+    .copiar:active{
+        background-color: #0A3871;
     }
     .logo{
         width: 2%;
